@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+.productClassify,.productSort , .pro-veiwlist > div{ -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+.productClassify,.productSort{ background:#fff; width:100%; padding:20px;}
+.productClassify .classifyChoice{border-bottom:1px solid #eee; position:relative}
+.productClassify .classifyChoice  h3{ width:65px;text-align:left; color:#333; font-size:16px; float:left;line-height:50px;}
+.productClassify .classifyChoice ul{color:#666; float:left; margin-top:13px; width:982px}
+.productClassify .classifyChoice li{ padding:0 16px; float:left; height:24px; line-height:24px; cursor:pointer; margin-bottom:15px;}
+.productClassify .classifyChoice li.cur{color:#fff; background:#cb1c1c;  border-radius:3px;}
+.classifyChoice-brand li input{ margin-right:5px; vertical-align:middle}
+.productClassify .classifyChoice .selectbtn{ position:absolute; right:0; top:13px;}
+.productClassify .classifyChoice .selectbtn a{ display:inline-block; margin-left:20px; border:1px solid #c1c1c1; color:#888;border-radius:3px;height:24px;line-height:24px;padding:0 16px;}
+.productClassify .classifyChoice .selectbtn a:hover ,.productClassify .classifyChoice .selectbtn a.select {color:#fff; background:#fc4747; border-color:transparent}
+
+.productSort{ height:60px; line-height:60px; overflow:hidden;vertical-align:middle; padding:0 20px;}
+.productSort ul{ float:left; color:#888; *width:60%;}
+.productSort ul li{ display:inline-block; margin-right:20px; cursor:pointer;*display:inline;}
+.productSort ul li a{color:#888;}
+.productSort ul li a:hover{color:#cb1c1c;}
+.productSort > span{ float:right; font-size:1.3em; cursor:pointer; *width:24px;}
+.productSort > span.active{color:#cb1c1c;}
+.productSort .pricerange{ border-left:1px solid #eee; padding-left:20px;color:#888}
+.productSort .pricerange input{ height:28px; font-size:13px; width:84px; outline:none; padding:0 5px 0 24px; background:#fff url(../images/icon-m.png) 5px center no-repeat;color:#888 }
+.productSort .pricerange .sure-min{ color:#fff;}
+.productLists , .productveiwLists{width:100%; height:auto; overflow:hidden;margin-top: 10px; }
+
+.productLists>.productItem{
+	width: 285px;
+    background: #fff;
+    margin: 0 14px 30px;
+    cursor: pointer;
+    float: left;
+    border: 1px solid transparent;
+    padding-bottom: 25px;
+}
+.productLists>.productItem>.pic{
+    height: 293px;
+    overflow: hidden;
+    position: relative;
+}
+.productLists>.productItem>.pic>a{display: block;height: 100%;width: 100%;}
+.productLists>.productItem>.pic>a>img{width: 100%;height: 100%;}
+.productLists>.productItem>.pic>div{
+	width: 100%;
+    height: 60px;
+    background: #9F9F9F\9;
+    background: rgba(10,12,1,.3);
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    transition: all .3s;
+    text-align: center;
+}
+.productLists>.productItem>.pic>div>a{
+	display: inline-block;
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.productLists>.productItem>.pic>div>a>i{
+	zoom: 1;
+    display: block;
+    content: " ";
+    width: 22px;
+    height: 21px;
+    margin: 0 auto;
+    background: url(../images/icon-model.png) no-repeat;
+    margin-top: 10px;
+}
+.productLists>.productItem>.pic>div>a.model>i{background: url(../images/icon-model.png) no-repeat -22px 0;}
+.productLists>.productItem>.pic:hover>div{
+	bottom: 0px;
+}
+.productLists>.productItem>.info{padding: 10px;}
+.productLists>.productItem>.info>h3{
+	color: #b52323;
+    font-size: 22px;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.productLists>.productItem>.info>h3>span>a{
+	margin-right: 5px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    width: 42px;
+    height: 20px;
+    color: #AC0C0C;
+    font-size: 12px;
+}
+.productLists>.productItem>.info>h3>span>a:hover{
+	background: #AC0C0C;color: #fff;
+}
+.productLists>.productItem>.info>h4{
+	color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.productLists .c-veiwlist{display: none;}
+.productLists .a-veiwlist{display: none;}
+.productveiwLists>.productItem{
+	width: 100%;
+    background: #fff;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 172px;
+}
+.productveiwLists>.productItem>div{float: left;}
+.productveiwLists>.productItem>.pic{
+	height: 172px;
+    width: 240px;
+    margin-right: 20px;
+    position: relative;
+}
+.productveiwLists>.productItem>.pic>a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.productveiwLists>.productItem>.pic>a>img{
+	width: 100%;
+}
+.productveiwLists>.productItem>.pic>div{
+	width: 100%;
+    height: 60px;
+    background: #9F9F9F\9;
+    background: rgba(10,12,1,.3);
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    transition: all .3s;
+    text-align: center;
+}
+.productveiwLists>.productItem>.pic>div>a{
+	display: inline-block;
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.productItem>.pic>div>a:hover{
+	color:#b52323 ;
+}
+.productveiwLists>.productItem>.pic>div>a>i{
+	zoom: 1;
+    display: block;
+    content: " ";
+    width: 22px;
+    height: 21px;
+    margin: 0 auto;
+    background: url(../images/icon-model.png) no-repeat;
+    margin-top: 10px;
+}
+.productveiwLists>.productItem>.pic>div>a.model>i{background: url(../images/icon-model.png) no-repeat -22px 0;}
+.productveiwLists>.productItem>.pic:hover>div{
+	bottom: 0px;
+}
+.productveiwLists>.productItem>.info{
+	width: 386px;
+    height: 82px;
+    overflow: hidden;
+    padding-top: 90px;
+}
+.productveiwLists>.productItem>.info>h3{
+	color: #b52323;
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: -80px;
+}
+.productItem>.info>h3>span{
+	margin-right: 5px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    width: 42px;
+    height: 20px;
+    border: 1px solid #AC0C0C;
+    color: #AC0C0C;
+    font-size: 12px;
+    float: right;
+}
+.productItem>.info>h3>span.active{background: #AC0C0C;color: #fff;}
+.productveiwLists>.productItem>.info>h3>span>a{
+	margin-right: 5px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    width: 42px;
+    height: 20px;
+    color: #AC0C0C;
+    font-size: 12px;
+}
+.productveiwLists>.productItem>.info>h3>span>a:hover{
+	background: #AC0C0C;color: #fff;
+}
+.productveiwLists>.productItem>.info>h4{
+	color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.c-veiwlist{ text-align:center; padding:60px 160px; font-size:12px; color:#888; line-height:2em}
+.c-veiwlist a:hover{ text-decoration:underline}
+.c-veiwlist span { font-size:1.3em}
+.a-veiwlist{ font-size:13px; color:#888;}
+.a-veiwlist span{ font-size:1.6em; line-height:172px}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.sign_header{ height:120px; overflow:hidden}
+.sign_header h1{background:url(../images/logo.png) left center no-repeat; text-indent:-9999px; height:120px; width:193px; float:left;background-size:207px;}
+.sign_tel{ line-height:120px; font-family:"Century Gothic"; margin-left:20px; font-size:30px; color:#d50000}
+.sign_header ul{ width:50%; float:right; height:100%; line-height:120px;}
+.sign_header ul li{ float:right; font-size:16px; margin-left:70px;}
+#drop-down-list{background-position: 10px -122px;}
+.The-drop{width:200px;}
+.signLogin-Box li input , .sign-banner{-webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover; background-size:cover;}
+
+.sign-banner{ background:url(../images/sign-banner.png) center top no-repeat; width:100%;background-size:1500px; }
+.signLogin-Box{ height:650px; width:412px; background:#fff; float:right; padding:25px 15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box; box-sizing: border-box;*height:456px;*width:372px}
+.signLogin-Box .signLogin-title{ height:50px;  color:#333; font-size:18px;}
+.signLogin-Box .signLogin-title li{ float:left; text-align:center; width:50%;border-bottom:1px solid #dcdcdc; cursor:pointer}
+.signLogin-Box .signLogin-title li.active{ color:#e45454; border-bottom-color:#e45454}
+
+.signLogin-main{width:100%;height:auto; overflow:hidden;}
+.signLogin-main form{ width:100%; height:auto; overflow:hidden}
+.signLogin-Box li{margin-bottom: 18px;}
+.signLogin-Box li input[type='text'] , .signLogin-Box li input[type='password']{border:1px solid #dcdcdc;width: 98%;padding:0 10px 0 45px;height:40px;line-height: 40px;*width:315px;background:#fff url(../images/login-icon.png) no-repeat;outline:none;}
+.signLogin-Box li input.login-user{ background-position:10px 8px;}
+.signLogin-Box li input.login-pass{ background-position:10px -88px;}
+.signLogin-Box li input.login-tel{background-position:10px -25px;}
+.signLogin-Box li input.user{background-position: 10px 7px;}
+.login-btn{ width:100%; display:block; background:#b61d1d; height:40px; line-height:40px; color:#fff; font-size:16px; text-align:center; letter-spacing:5px}
+.login-btn:hover{ color:#fff; background:#a40f0f}
+
+.sign_footer{ margin-top:40px; margin-bottom:40px;}
+
+/*5.27edit  */
+.signLogin-Box li.verfycode input{background: #fff;width: 230px;padding-left: 10px}
+.signLogin-Box li.verfycode .gray-btn {
+    height: 38px;
+    line-height: 38px;
+    padding: 0px 11px;
+    margin-left: 10px;
+}
+
+.signLogin-main span{color:red;}

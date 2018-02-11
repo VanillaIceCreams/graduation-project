@@ -1,0 +1,2 @@
+
+$.cookie("wechatBackCon",null);
